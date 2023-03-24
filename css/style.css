@@ -1,0 +1,44 @@
+/* Created by: Shyla Oommen
+* Created on: Mar 2023
+* This CSS file defines the style for index.html
+* ICS2O-Programming-Assign-02-PHP-Calculations
+*/
+
+body {
+  background-color: #b0d7ff;
+}
+
+h1, h3 {
+  background-color: #adacb5;
+  text-align: center;
+  border: 2px solid gray;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p, form{
+  background-color: #adacb5;
+  border: 2px solid gray;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+#results {
+  background-color: #adacb5;
+  border: 2px solid gray;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}

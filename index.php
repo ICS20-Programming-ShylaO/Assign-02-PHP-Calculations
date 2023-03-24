@@ -17,10 +17,12 @@
     <?php 
 			echo "<h1>Surface Area and Volume of a Cylinder, Using PHP in PHP</h1>";
 			echo "<h3>This program will calculate the surface area and volume of a cylinder.</h3>";
-      echo "<h3>Formulas: SA=2πrh+2πr<sup>2<br>V= πr<sup>2</sup>h"
+      echo "<h3>Formulas: <br> SA=2πrh+2πr<sup>2<br>V= πr<sup>2</sup>h</h3>";
 		?>
-    <img src="./images/SA_cylinder.png" alt="Surface Area of a Cylinder" width="75%" height="auto">
-    <img src="./images/V_cylinder.png" alt="Volume of a Cylinder" width="75%" height="auto">
+    <center>
+    <img src="./images/SA_cylinder.png" alt="Surface Area of a Cylinder" width="25%" height="25%">
+    <img src="./images/V_cylinder.png" alt="Volume of a Cylinder" width="25%" height="25%">
+    </center>
 		<!-- form to get radius and height from the user -->
     <form action="./answers.php" method="post" target="results">
       <label for="lblRadius">Radius (cm):</label>
@@ -32,9 +34,10 @@
 		</form>
 
 			<!-- iframe for the results to show on the web page. -->
-			<iframe id="results" name="results">			
-				The surface area of the cylinder is  " + $sArea + cm<sup>2</sup>"<br>
-        The perimeter of the triangle is " + $vCylinder + cm<sup>3</sup>"
+      <center>
+			<iframe id="results" name="results">	
+				<p>The surface area of the cylinder is  " + $sAreaRounded + cm<sup>2</sup>" and the volume is " + $volumeRounded + cm<sup>3</sup></p>"
 	    </iframe>
+      </center>
 	</body>
 </html>
