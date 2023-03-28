@@ -20,7 +20,7 @@
   <body>
 		<!-- php echo to print the html to the page -->
     <?php 
-			echo "<h1>Surface Area and Volume of a Cylinder, Using PHP in PHP</h1>";
+			echo "<h1>Surface Area and Volume of a Cylinder, Using PHP</h1>";
 			echo "<h3>This program will calculate the surface area and volume of a cylinder.</h3>";
       echo "<h3>Formulas: <br> SA=2πrh+2πr<sup>2<br>V= πr<sup>2</sup>h</h3>";
 		?>
